@@ -12,7 +12,7 @@
         <div class="reception">
             <h1>Add books to your library</h1>
             
-            <div class="details">
+            <form class="details">
                 <label for="title">Title</label>
                 <input type="text" name="title" id="title" placeholder="Book Title">
 
@@ -20,14 +20,18 @@
                 <input type="text" name="author" id="author" placeholder="Author">
 
                 <label for="page_no">Pages</label>
-                <input type="number" name="page_no" id="page_no" value="160">
+                <input type="number" name="page_no" id="page_no" placeholder="160">
+
+                <label for ="readStatus">
+                    <input type="checkbox" name="readStatus" id="readStatus">Mark as read
+                </label>
 
                 <button type="submit">Add to library</button>
-            </div>
+            </form>
         </div>
 
         <div class="bookShelf">
-
+            
         </div>
     </div>
 </body>
